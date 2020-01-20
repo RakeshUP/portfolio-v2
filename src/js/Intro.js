@@ -1,7 +1,15 @@
 import React from 'react';
-import scroll from '../images/scroll.svg'
+import refUtil from '../util/refUtil';
+import scroll from '../images/scroll.svg';
 
-function Intro() {
+const Intro = () => {
+  const clickHandler = () => {
+    refUtil.get(0).current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  };
+
   return (
     <div className="app">
       <div className="main">
@@ -9,12 +17,12 @@ function Intro() {
         <hr />
         <p className="text02">I am a full stack developer. I build things for the World Wide Web.</p>
       </div >
-      <div class="scroll-cta">
+      <div className="scroll-cta" onClick={clickHandler}>
         <img className="scroll-image" src={scroll} alt="scrollSvg" />
-        <div class="scroll-text">scroll to discover</div>
+        <div className="scroll-text">scroll to discover</div>
       </div>
     </div >
   );
-}
+};
 
 export default Intro;

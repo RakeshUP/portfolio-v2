@@ -1,5 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import refUtil from '../util/refUtil';
 
 const Description = props => {
   return (
@@ -38,8 +39,10 @@ const Tags = props => {
 };
 
 const Projects = props => {
+  let ref = React.createRef();
+  refUtil.push(ref);
   return (
-    <div className="Projects" style={props.position % 2 === 0 ? { backgroundColor: '#f8f8f8' } : {}}>
+    <div className="Projects" ref={ref} style={props.position % 2 === 0 ? { backgroundColor: '#f8f8f8' } : {}}>
       <Fade bottom>
         <h1 className="project-heading">
           <a href={props.Link} target="_blank" rel="nofollow noopener noreferrer">

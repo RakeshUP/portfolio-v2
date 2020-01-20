@@ -8,7 +8,7 @@ import bsp from '../images/BSP.webp';
 import idyll from '../images/Idyll.png';
 import '../css/App.css';
 
-function App() {
+const App = () => {
   return (
     <div>
       <Intro />

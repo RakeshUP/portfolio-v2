@@ -35,6 +35,7 @@ hr {
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
+  cursor: pointer;
 }
 
 .scroll-text {
@@ -169,8 +170,8 @@ hr {
   margin-left: 15vw;
 }
 
-@keyframes jump{
-  from{
+@keyframes jump {
+  from {
     transform: translateY(0%);
   }
 

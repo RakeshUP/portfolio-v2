@@ -23,31 +23,33 @@ function App() {
         <p type="Tags">Extension API</p>
       </Projects>
       <Projects alt="RetroSnake" className="webp" position={1} src={snake} Link="https://rakeshup.github.io/retro-snake/"
-        Heading="Retro Snake" TagLine="A turn-based snake game, retro style">
+        Heading="Retro Snake" TagLine="A turn-based snake game, retro style.">
         <p type="Description">Has three levels of difficulty</p>
         <p type="Description">Cool in-game sounds</p>
-        <p type="Description">Space-bar to play/pause game</p>
+        <p type="Description">Press space-bar to play/pause game</p>
         <p type="Tags">React</p>
         <p type="Tags">JavaScript</p>
         <p type="Tags">CSS</p>
       </Projects>
       <Projects alt="BSP" className="bsp" position={2} src={bsp} Link="https://www.manageengine.com/browser-security/"
-        Heading="Browser Security Plus" TagLine="">
-        <p type="Description">Has three levels of difficulty</p>
-        <p type="Description">Cool in-game sounds</p>
-        <p type="Description">Space-bar to play/pause game</p>
-        <p type="Tags">React</p>
+        Heading="Browser Security Plus" TagLine="An enterprise browser security tool that helps IT administrators manage and secure browsers.">
+        <p type="Description">Protects Windows desktops from web-based attacks</p>
+        <p type="Description">Has browser extensions for Chrome, Firefox and IE to prevent in-browser attacks</p>
+        <p type="Description">Has 10k+ paid installations and made a revenue of $100k+ during 2019</p>
         <p type="Tags">JavaScript</p>
-        <p type="Tags">CSS</p>
+        <p type="Tags">C++</p>
+        <p type="Tags">Java</p>
+        <p type="Tags">PostgreSQL</p>
       </Projects>
       <Projects alt="Idyll-Lang" className="idyll" position={3} src={idyll} Link="https://idyll-lang.org/"
-        Heading="Idyll-Lang" TagLine="">
-        <p type="Description">Has three levels of difficulty</p>
-        <p type="Description">Cool in-game sounds</p>
-        <p type="Description">Space-bar to play/pause game</p>
-        <p type="Tags">React</p>
+        Heading="Idyll-Lang" TagLine="Idyll is a markup language and toolkit for writing interactive articles.">
+        <p type="Description">Implemented new grammar to support italicized and bold links</p>
+        <p type="Description">Built a compiler processor to embed P5JS sketches to idyll documents</p>
+        <p type="Description">Released a Sublime package 'Idyll-Syntax', a syntax highlighter for Idyll-Lang</p>
         <p type="Tags">JavaScript</p>
-        <p type="Tags">CSS</p>
+        <p type="Tags">NodeJS</p>
+        <p type="Tags">Compiler</p>
+        <p type="Tags">Server Side Rendering</p>
       </Projects>
       <Footer />
     </div >

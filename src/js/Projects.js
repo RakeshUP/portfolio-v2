@@ -10,7 +10,7 @@ const Description = props => {
       <div>
         {React.Children.map(props.children, element => {
           if (element.props.type === 'Description') {
-            return React.createElement('div', null, element.props.children)
+            return React.createElement('div', { style: { paddingBottom: "1vh" } }, element.props.children)
           }
         })
         }
@@ -28,7 +28,7 @@ const Tags = props => {
       <div>
         {React.Children.map(props.children, element => {
           if (element.props.type === 'Tags') {
-            return React.createElement('div', null, element.props.children)
+            return React.createElement('div', { style: { paddingBottom: "1vh" } }, element.props.children)
           }
         })
         }
@@ -42,7 +42,7 @@ const Projects = props => {
     <div className="Projects" style={props.position % 2 === 0 ? { backgroundColor: '#f8f8f8' } : {}}>
       <Fade bottom>
         <h1 className="project-heading">
-          <a href={props.Link}>
+          <a href={props.Link} target="_blank" rel="nofollow noopener noreferrer">
             {props.Heading}
           </a>
         </h1>

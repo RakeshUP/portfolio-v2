@@ -186,6 +186,10 @@ hr {
     transform: translateY(-10%);
   }
 
+  90% {
+    transform: translateY(0%);
+  }
+
   to {
     transform: translateY(0%);
   }

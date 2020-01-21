@@ -201,7 +201,7 @@ hr {
   }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .text01 {
     font-size: 32px;
   }

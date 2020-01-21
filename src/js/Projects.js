@@ -2,6 +2,8 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import refUtil from '../util/refUtil';
 
+const isMobile = () => window.innerWidth <= 500;
+
 const Description = props => {
   return (
     <>
@@ -54,7 +56,7 @@ const Projects = props => {
         </div>
       </Fade>
       <div className="project-flex">
-        {props.position % 2 === 0 ? <>
+        {props.position % 2 === 0 || isMobile() ? <>
           <div className="project-image">
             <img className={`image ${props.className}`} alt={props.alt} src={props.src} />
           </div>

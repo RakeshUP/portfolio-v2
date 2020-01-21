@@ -13,7 +13,7 @@ hr {
 }
 
 .main {
-  margin-top: 20vh;
+  margin-top: 15vh;
   width: 25vw;
   font-family: 'Oswald',
     sans-serif;
@@ -33,7 +33,7 @@ hr {
 
 .scroll-cta {
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -20%);
   position: absolute;
   cursor: pointer;
 }
@@ -193,5 +193,98 @@ hr {
 
   to {
     transform: translateY(0%);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .text01 {
+    font-size: 32px;
+  }
+
+  .text02 {
+    font-size: 16px;
+  }
+
+  .scroll-text {
+    font-size: 12px;
+  }
+
+  .scroll-image {
+    width: 5vw;
+  }
+
+  .project-heading {
+    font-size: 28px;
+    margin-top: 0%;
+  }
+
+  .project-tagline {
+    font-size: 16px;
+  }
+
+  .Projects {
+    width: 100%;
+    display: block;
+  }
+
+  .project-flex {
+    display: block;
+    width: 100%;
+  }
+
+  .project-image {
+    display: block;
+  }
+
+  .image {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto 2vh;
+  }
+
+  .webp {
+    margin-top: 4vh;
+    margin-bottom: 10vh;
+    box-shadow: 0px 10px 30px 5px grey;
+  }
+
+  .bsp {
+    margin-top: 4vh;
+    margin-bottom: 10vh;
+    box-shadow: 0px 10px 30px 5px grey;
+  }
+
+  .project-desc {
+    display: block;
+    padding-left: 0;
+  }
+
+  .summary {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    display: block;
+    font-size: 14px;
+    color: #777777;
+    position: unset;
+    transform: translate(0, 0);
+  }
+
+  .footer {
+    display: block;
+    margin: 4vh 0 4vh 0;
+  }
+
+  .copyright {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .footer-social-icons {
+    margin: 4vh auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
   }
 }

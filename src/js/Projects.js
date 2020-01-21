@@ -1,6 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import refUtil from '../util/refUtil';
+import openLink from '../images/openLink.svg';
 
 const isMobile = () => window.innerWidth <= 500;
 
@@ -50,6 +51,7 @@ const Projects = props => {
           <a href={props.Link} target="_blank" rel="nofollow noopener noreferrer">
             {props.Heading}
           </a>
+          <img className="openLink" src={openLink} alt="openLink"></img>
         </h1>
         <div className="project-tagline">
           {props.TagLine}

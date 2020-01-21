@@ -22,6 +22,10 @@ body {
 }
 
 a{
-  color: inherit;
+  color: rgb(183, 148, 222);
   text-decoration: none;
+}
+
+h1 > a{
+  color: #777777;
 }

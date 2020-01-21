@@ -99,6 +99,11 @@ hr {
   font-weight: 800;
   text-align: center;
   padding-top: 5vh;
+  cursor: pointer;
+}
+
+.openLink {
+  padding-left: 2vw;
 }
 
 .project-tagline {
@@ -216,6 +221,11 @@ hr {
   .project-heading {
     font-size: 28px;
     margin-top: 0%;
+  }
+
+  .openLink {
+    display: block;
+    margin: 2vh auto;
   }
 
   .project-tagline {

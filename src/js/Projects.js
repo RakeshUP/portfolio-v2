@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import refUtil from '../util/refUtil';
 import openLink from '../images/openLink.svg';
 
-const isMobile = () => window.innerWidth <= 768;
+const isMobile = () => window.innerWidth <= 1024;
 
 const Description = props => {
   return (

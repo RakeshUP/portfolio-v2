@@ -24,6 +24,7 @@ const App = () => {
       </Projects>
       <Projects alt="Idyll-Lang" className="idyll" position={3} src={idyll} Link="https://idyll-lang.org/"
         Heading="Idyll-Lang" TagLine="Idyll is a markup language and toolkit for writing interactive articles.">
+        <p type="Description">Made few contributions to the open source project Idyll</p>
         <p type="Description">Implemented new grammar to support italicized and bold links</p>
         <p type="Description">Built a compiler processor to embed P5JS sketches to idyll documents</p>
         <p type="Description">Released a Sublime package 'Idyll-Syntax', a syntax highlighter for Idyll-Lang</p>

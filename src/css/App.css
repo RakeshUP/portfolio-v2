@@ -175,6 +175,12 @@ hr {
   margin-left: 15vw;
 }
 
+.resume {
+  padding: 2%;
+  color: #5ac782;
+  vertical-align: super;
+}
+
 @keyframes jump {
   from {
     transform: translateY(0%);
@@ -296,5 +302,10 @@ hr {
     width: 80%;
     display: flex;
     justify-content: space-evenly;
+  }
+
+  .resume {
+    vertical-align: unset;
+    padding-top: 3%;
   }
 }

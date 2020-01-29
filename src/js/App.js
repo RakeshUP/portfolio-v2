@@ -13,7 +13,7 @@ const App = () => {
     <div>
       <Intro />
       <Projects alt="BSP" className="bsp" position={2} src={bsp} Link="https://www.manageengine.com/browser-security/"
-        Heading="Browser Security Plus" TagLine="An enterprise browser security tool that helps IT administrators manage and secure browsers.">
+        Heading="Zoho Browser Security Plus" TagLine="An enterprise browser security tool that helps IT administrators manage and secure browsers.">
         <p type="Description">Protects Windows desktops from web-based attacks</p>
         <p type="Description">Has browser extensions for Chrome, Firefox and IE to prevent in-browser attacks</p>
         <p type="Description">Has 10k+ paid installations and made a revenue of $100k+ during 2019</p>

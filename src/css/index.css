@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 
-html{
-  width:100%;
+html {
+  width: 100%;
   height: auto;
   overflow-x: hidden;
 }
 
-#root{
+#root {
   width: 100%;
   height: auto;
 }
@@ -19,13 +19,4 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #444444;
-}
-
-a{
-  color: rgb(183, 148, 222);
-  text-decoration: none;
-}
-
-h1 > a{
-  color: #777777;
 }

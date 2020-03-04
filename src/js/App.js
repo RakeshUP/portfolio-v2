@@ -28,7 +28,7 @@ const App = () => {
         <p type="Description">Implemented new grammar to support italicized and bold links</p>
         <p type="Description">Built a compiler processor to embed P5JS sketches to idyll documents</p>
         <p type="Description">Released a Sublime package 'Idyll-Syntax', a syntax highlighter for Idyll-Lang</p>
-        <p type="Description"><a rel="noopener noreferrer" target="_blank" href="https://github.com/idyll-lang/idyll/pulls?utf8=%E2%9C%93&q=author%3ARakeshUP+">You can view all my work here</a></p>
+        <p type="Description"><a rel="noopener noreferrer" className="pr-link" target="_blank" href="https://github.com/idyll-lang/idyll/pulls?utf8=%E2%9C%93&q=author%3ARakeshUP+">You can view all my work here</a></p>
         <p type="Tags">JavaScript</p>
         <p type="Tags">NodeJS</p>
         <p type="Tags">Compiler</p>
